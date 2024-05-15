@@ -48,10 +48,6 @@ const IdeClone = () => {
 				/>
 				<div className={"flex grow"}>
 					<div className={"grow bg-darker contents"}>Component 2</div>
-					<SampleSplitter
-						isDragging={isPluginDragging}
-						{...pluginDragBarProps}
-					/>
 				</div>
 			</div>
 			<SampleSplitter
